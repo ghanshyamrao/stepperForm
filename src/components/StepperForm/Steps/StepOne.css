@@ -1,0 +1,90 @@
+.step-card {
+    max-width: 400px;
+    margin: 0 auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  .step-card:hover {
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .step-card .ant-form-item-label {
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .step-card .ant-form-item-label label {
+    transform-origin: top left;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .step-card .ant-form-item-label label.ant-form-item-required::before {
+    display: none;
+  }
+  
+  .step-card .ant-form-item-label label.ant-form-item-required:after {
+    display: inline-block;
+    content: '*';
+    margin-left: 2px;
+    color: red;
+  }
+  
+  .step-card .ant-form-item-label label.ant-form-item-required:before {
+    display: none;
+  }
+  
+  .step-card .ant-form-item-label.ant-form-item-label-left label {
+    font-size: 14px;
+  }
+  
+  .step-card .ant-form-item-label.ant-form-item-label-left:not(.ant-form-item-label-required) {
+    padding-top: 6px;
+  }
+  
+  .step-card .ant-form-item-label.ant-form-item-label-left label + .ant-form-item-required::after {
+    top: 6px;
+  }
+  
+  .step-card .ant-form-item-label label.ant-form-item-required + .ant-form-item-children {
+    margin-left: 10px;
+    transition: margin 0.3s ease-in-out;
+  }
+  
+  .step-card .ant-form-item-label label.ant-form-item-required:not(.ant-form-item-required-mark-optional) + .ant-form-item-children {
+    margin-left: 10px;
+    transition: margin 0.3s ease-in-out;
+  }
+  
+  .step-card .ant-form-item-label label.ant-form-item-required:not(.ant-form-item-required-mark-optional):after {
+    content: '*';
+    margin-left: 2px;
+    color: red;
+  }
+  
+  .step-card .ant-form-item-label label.ant-form-item-required:not(.ant-form-item-required-mark-optional) + .ant-form-item-children .ant-form-item-children-icon {
+    top: 8px;
+    transition: top 0.3s ease-in-out;
+  }
+  
+  .step-card .ant-form-item-label label.ant-form-item-required:not(.ant-form-item-required-mark-optional):before {
+    display: none;
+  }
+  
+  .step-card .ant-form-item-label label.ant-form-item-required:not(.ant-form-item-required-mark-optional) + .ant-form-item-children {
+    margin-left: 10px;
+    transition: margin 0.3s ease-in-out;
+  }
+  
+  .step-card .ant-form-item-label label.ant-form-item-required:not(.ant-form-item-required-mark-optional) + .ant-form-item-children .ant-form-item-children-icon {
+    top: 8px;
+    transition: top 0.3s ease-in-out;
+  }
+  
+  .step-card .ant-form-item-label label.ant-form-item-required:not(.ant-form-item-required-mark-optional) + .ant-form-item-children .ant-form-item-children-icon:before {
+    display: none;
+  }
+  
+  .step-card .ant-form-item-label label.ant-form-item-required:not(.ant-form-item-required-mark-optional) + .ant-form-item-children .ant-form-item-children-icon:after {
+    display: none;
+  }
+  

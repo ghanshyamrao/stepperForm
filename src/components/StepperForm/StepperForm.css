@@ -1,0 +1,29 @@
+.stepper-form {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .stepper-form-heading {
+    text-align: center;
+  }
+  
+  .stepper-form-steps {
+    margin-top: 20px;
+  }
+  
+  .stepper-form-content {
+    margin: 40px 0;
+  }
+  
+  .stepper-form-actions {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+  }
+  
+  .stepper-form-button {
+    margin-left: 8px;
+  }
+  
+  /* Add any additional styles or animations as per your requirements */
+  
